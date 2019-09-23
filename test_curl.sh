@@ -1,6 +1,6 @@
 #!/bin/bash
 
-webserv="localhost:5000" 
+webserv="localhost:80" 
 
 keyword="Jenkins" # enter the keyword for test content
 
