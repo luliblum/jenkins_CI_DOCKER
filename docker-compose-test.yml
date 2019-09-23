@@ -3,6 +3,6 @@ services:
   web:
     image: 313658874/blum_final
     ports:
-            - "5000:5000"
+            - "80:5000"
   redis:
     image: "redis:alpine"
