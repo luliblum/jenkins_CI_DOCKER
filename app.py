@@ -8,8 +8,8 @@ app = Flask(__name__)
 cache = redis.Redis(host='redis', port=6379)
 
  
-#currentDT = datetime.datetime.now()
-#print (str(currentDT))
+currentDT = datetime.datetime.now()
+print (str(currentDT))
 
 
 def get_hit_count():
